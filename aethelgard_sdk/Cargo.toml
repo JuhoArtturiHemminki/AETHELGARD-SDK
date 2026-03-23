@@ -1,0 +1,12 @@
+[package]
+name = "aethelgard_sdk"
+version = "2.1.0"
+edition = "2021"
+authors = ["Juho Artturi Hemminki"]
+description = "High-Precision Zero-Latency Control Logic"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+
