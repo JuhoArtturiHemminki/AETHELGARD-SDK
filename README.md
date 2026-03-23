@@ -1,12 +1,12 @@
-# AethelgardV2
+# AETHELGARD-SDK
 > **Adaptive Non-Linear Signal Integrity Engine**
 
-AethelgardV2 is a high-performance, real-time signal processing core written in Rust. It implements a **Volterra-inspired Nonlinear LMS (NLMS)** algorithm designed to clean and predict processor-scale signals where physical saturation and non-linear distortion occur.
+AETHELGARD-SDK is a high-performance, real-time signal processing core written in Rust. It implements a **Volterra-inspired Nonlinear LMS (NLMS)** algorithm designed to clean and predict processor-scale signals where physical saturation and non-linear distortion occur.
 
 ---
 
 ##  Core Concept
-Traditional filters assume linearity. **AethelgardV2** does not. It is specifically engineered for environments where signal integrity is compromised by physical hardware limits, such as:
+Traditional filters assume linearity. **AETHELGARD-SDK** does not. It is specifically engineered for environments where signal integrity is compromised by physical hardware limits, such as:
 *   **Power Rail Transients:** Non-linear voltage droop under CPU load.
 *   **RF Digital Pre-Distortion (DPD):** Correcting power amplifier saturation.
 *   **Thermal Drift:** Adapting to hardware behavior changes in real-time.
