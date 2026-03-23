@@ -5,7 +5,7 @@ AethelgardV2 is a high-performance, real-time signal processing core written in 
 
 ---
 
-## 💎 Core Concept
+##  Core Concept
 Traditional filters assume linearity. **AethelgardV2** does not. It is specifically engineered for environments where signal integrity is compromised by physical hardware limits, such as:
 *   **Power Rail Transients:** Non-linear voltage droop under CPU load.
 *   **RF Digital Pre-Distortion (DPD):** Correcting power amplifier saturation.
@@ -13,7 +13,7 @@ Traditional filters assume linearity. **AethelgardV2** does not. It is specifica
 
 ---
 
-## ⚛️ Mathematical Model
+##  Mathematical Model
 The engine estimates the "clean" signal by combining a linear adaptive FIR structure with a cubic non-linear correction term:
 
 $$y_{linear} = \sum_{i=0}^{N-1} w_i \cdot x_{t-i}$$
@@ -26,7 +26,7 @@ Where:
 
 ---
 
-## 🚀 Performance Features
+##  Performance Features
 *   **Rust Core:** Zero-cost abstractions and memory safety.
 *   **Deterministic Latency:** No heap allocations during the processing loop.
 *   **Leakage Control:** Prevents coefficient drift during silent or static periods.
@@ -34,7 +34,7 @@ Where:
 
 ---
 
-## 🛠️ Usage
+##  Usage
 
 ### Rust API
 ```rust
